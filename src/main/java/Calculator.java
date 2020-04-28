@@ -10,20 +10,17 @@ public class Calculator {
     public static double DataForA(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a");
-        double a = sc.nextDouble();
-        return a;
+        return sc.nextDouble();
     }
     public static double DataForB(){
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Enter b");
-        double b = sc1.nextDouble();
-        return b;
+        return sc1.nextDouble();
     }
     public static char DataForX(){
         Scanner sc2 = new Scanner(System.in);
         System.out.println("Enter  one of signs: + - / *");
-        char x = sc2.next().charAt(0);
-        return x;
+        return sc2.next().charAt(0);
     }
     public static void Calculate(double a, double b, char x){
         switch(x){
@@ -44,7 +41,7 @@ public class Calculator {
                 System.out.println(dev);
                 break;
             default:
-                System.out.println("Input correct parameter");
+                System.out.println("Input correct sign");
         }
     }
     }
