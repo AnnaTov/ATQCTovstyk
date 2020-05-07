@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HW1T6 {
     public static void main(String[] args) {
         task6();
