@@ -1,11 +1,13 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class HW1T7 {
     public static void main(String[] args) {
-        task7(5);
-    }
-    public static void task7(int a){
         //Напишите программу, которая выводит на экран сумму всех чисел массива
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a");
+        int a =sc.nextInt();
+
         Random rand = new Random();
         int [] array=new int[a];
         int sum=0;
@@ -15,7 +17,5 @@ public class HW1T7 {
             System.out.print(array[i]+" ");
         }
         System.out.println("\nSum is: "+ sum);
-
-
     }
 }
