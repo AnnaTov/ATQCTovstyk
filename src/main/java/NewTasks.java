@@ -2,7 +2,7 @@ public class NewTasks {
     public static void main(String[] args) {
         //home4(3,4,12);
        // isSquare(11);
-        task5();
+        task6();
     }
 
     public static void home1(){
@@ -48,11 +48,15 @@ public class NewTasks {
         }
         }
 
-    public static void task5(){
-        for(int i = 5;i>0; i--){
-            System.out.println(i) ;
+    public static void task5() {
+        for (int i = 5; i > 0; i--) {
+            System.out.println(i);
         }
     }
-
+    public static void task6(){
+        for (int i=1;i<=10;i++){
+            System.out.println("7*"+i+"="+(7*i));
+        }
+    }
     }
 
