@@ -73,5 +73,8 @@ public class NewTasks {
         // your code here
         System.out.println(vowelsCount);
     }
+    public static void newMeth(){
+
+    }
     }
 
