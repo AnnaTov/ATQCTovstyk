@@ -2,7 +2,8 @@ public class NewTasks {
     public static void main(String[] args) {
         //home4(3,4,12);
        // isSquare(11);
-        task6();
+        //task6();
+        getCount();
     }
 
     public static void home1(){
@@ -57,6 +58,20 @@ public class NewTasks {
         for (int i=1;i<=10;i++){
             System.out.println("7*"+i+"="+(7*i));
         }
+    }
+    public static void getCount() {
+        String str = "abracadabra";
+        int vowelsCount = 0;
+        for(int i = 0; i <str.length(); i++){
+            char a = str.charAt(i);
+            System.out.println(a);
+            if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
+                vowelsCount++;
+            }
+
+        }
+        // your code here
+        System.out.println(vowelsCount);
     }
     }
 
